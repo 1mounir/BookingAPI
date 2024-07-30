@@ -5,6 +5,7 @@ import OTPService from "../../services/otp";
 import { sendEmail } from "../../services/send_mail";
 import { comparePwd, generateToken, hashPwd } from "../../utils/helpers";
 import Respond from "../../utils/respond";
+import { emit } from "process";
 
 export default class UserController {
   // Getting all users
@@ -89,10 +90,11 @@ export default class UserController {
   };
 
   static login = async (req: Request, res: Response) => {
+
     const respond = new Respond(res);
     try {
       const { email, password } = req.body;
-
+      console.log(req.body)
       const user = await Account.findOne({ email });
 
       if (!user) {

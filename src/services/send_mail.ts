@@ -21,8 +21,8 @@ export function sendEmail(email: string, otp: number) {
   const MailGenerator = new Mailgen({
     theme: "default",
     product: {
-      name: "Quick step App",
-      link: "https://aimelive.netlify.app/",
+      name: "Live tracking",
+      link: "https://noorzena.co/",
     },
   });
   const response = {

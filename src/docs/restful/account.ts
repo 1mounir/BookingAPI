@@ -119,12 +119,12 @@ export const accountDefinitions = {
       email: {
         type: "string",
         required: true,
-        default: "aimendayambaje25@gmail.com",
+        default: "1mounir.ammar@gmail.com",
       },
       password: {
         type: "string",
         required: true,
-        default: "aimelive@123",
+        default: "mounir@123",
       },
     },
   },
@@ -135,7 +135,7 @@ export const accountDefinitions = {
       email: {
         type: "string",
         required: true,
-        default: "aimendayambaje25@gmail.com",
+        default: "1mounir.ammar@gmail.com",
       },
       password: {
         type: "string",
@@ -150,7 +150,7 @@ export const accountDefinitions = {
       email: {
         type: "string",
         required: true,
-        default: "aimendayambaje25@gmail.com",
+        default: "1mounir.ammar@gmail.com",
       },
       otp: {
         type: "number",
@@ -166,7 +166,7 @@ export const accountDefinitions = {
       email: {
         type: "string",
         required: true,
-        default: "aimendayambaje25@gmail.com",
+        default: "1mounir.ammar@gmail.com",
       },
     },
   },

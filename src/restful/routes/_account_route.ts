@@ -18,7 +18,7 @@ accountRoutes.post(
   AuthMiddleWare.isAccountExist,
   UserController.createAccount
 );
-
+// "/login", AuthValidate.login,
 accountRoutes.post("/login", AuthValidate.login, UserController.login);
 
 accountRoutes.post(
